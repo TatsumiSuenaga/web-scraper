@@ -25,7 +25,7 @@ let getCount = (html, searchTerm) => {
         const elementText = $(urlElems[i]).text();
         if (elementText.length > 0){
             count += getCountWithinText(elementText, searchTerm);
-            console.log(count);
+            //console.log(count);
         }
     }
 
