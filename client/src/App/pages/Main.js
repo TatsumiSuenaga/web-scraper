@@ -33,10 +33,10 @@ class Main extends Component {
 
               <label>Search word</label>
               <input type="text" name="search" onChange={this.handleChange} />
-            </form>
-            <button variant="raised">
+              <button variant="raised" onSubmit={this.handleSubmit}>
                 Search
             </button>
+            </form>
           </Link>
       </div>
     );
